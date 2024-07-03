@@ -103,8 +103,8 @@ HiddenNavBar2();
 
 function page1Gsap() {
     gsap.to("#nav", {
-        backgroundColor:"#F7F7EE",
-        duration:0.01,
+        backgroundColor: "#F7F7EE",
+        duration: 0.01,
         scrollTrigger: {
             trigger: "#nav",
             scroller: "#main",
@@ -127,6 +127,32 @@ function page1Gsap() {
         }
     })
 
+    gsap.to("#nav .lines", {
+        backgroundColor: "#434B34",
+        ease: Power0.easeNone,
+        scrollTrigger: {
+            trigger: "#nav",
+            scroller: "#main",
+            // markers:true,
+            start: "top -2%",
+            end: "top -10%",
+            scrub: 2
+        }
+    })
+
+    gsap.to("#nav svg", {
+        fill: "#434B34",
+        ease: Power0.easeNone,
+        scrollTrigger: {
+            trigger: "#nav",
+            scroller: "#main",
+            // markers:true,
+            start: "top -2%",
+            end: "top -10%",
+            scrub: 2
+        }
+    })
+
     gsap.from("#nav svg", {
         y: -40,
         opacity: 0,
@@ -134,13 +160,17 @@ function page1Gsap() {
         duration: 0.7,
     })
     var tl = gsap.timeline()
-    tl.from("#page1 img", {
+    tl.from("#page1 video", {
         scale: 0.5,
         delay: 1,
         duration: 1,
         ease: Power4.easeOut,
         borderRadius: "20px"
     })
+        .from("#nav svg", {
+            fill: "#434B34",
+            duration: 0.1
+        })
         .from("#nav #part1, #part2", {
             y: -50,
             opacity: 0,
@@ -302,7 +332,7 @@ function page5Slider() {
             el: ".swiper-pagination",
             type: "fraction"
         },
-        loop:true,
+        loop: true,
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",

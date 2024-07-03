@@ -45,13 +45,13 @@ body{
 #nav #part1 .lines{
     width: 3.4vw;
     height: 0.11vw;
-    background-color: #434B34;
+    background-color: #F7F7EE;
     margin-bottom: 0.4vw;
 }
 
 #nav svg{
     position: absolute;
-    fill: #434B34;
+    fill: #F7F7EE;
     transform: translateY(16vw);
     z-index: 99;
     scale: 0.3;
@@ -80,7 +80,7 @@ body{
     position: relative;
 }
 
-#page1 img{
+#page1 video{
     width: 100%;
     height: 100%;
     object-fit: cover;
