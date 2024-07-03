@@ -160,9 +160,52 @@
         padding: 1vw 3vw;
     }
 
-    .elem-part2 .part2-text2 h5 i{
+    .elem-part2 .part2-text2 h5 i {
         font-size: 2vw;
         padding: 1vw 3vw;
+    }
+
+    #page5 {
+        min-height: 70vh;
+        padding: 8vw 4vw;
+    }
+
+    #page5 .swiper {
+        width: 100%;
+        height: 60vh;
+        position: relative;
+    }
+
+    #page5 .swiper-slide {
+        width: 100%;
+        height: 90%;
+        margin-top: 11vw;
+        padding: 3vw 1vw;
+    }
+
+    #page5 .swiper-slide img {
+        border-radius: 5vw;
+        transform: translateX(-0%) translateY(0%);
+    }
+
+    #page5 #change {
+        width: 32vh;
+        height: 10vw;
+        position: absolute;
+        z-index: 999999;
+        top: 5%;
+        left: 20%;
+    }
+
+    #page5 .swiper-button {
+        padding: 3vw 5vw;
+        height: 2vw;
+        border-radius: 5vw;
+    }
+
+    #page5 .swiper-pagination {
+        height: 8vw;
+        font-size: 4vw;
     }
 
     #page10 {
