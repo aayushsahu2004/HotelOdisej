@@ -33,35 +33,35 @@ body{
 
 #nav{
     width: 100%;
-    height: 90px;
+    height: 7vw;
     position: fixed;
     z-index: 99;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 50px;
+    padding: 0vw 4vw;
 }
 
 #nav #part1 .lines{
-    width: 42px;
-    height: 2px;
+    width: 3.4vw;
+    height: 0.11vw;
     background-color: #434B34;
-    margin-bottom: 5px;
+    margin-bottom: 0.4vw;
 }
 
 #nav svg{
     position: absolute;
     fill: #434B34;
-    transform: translateY(210px);
+    transform: translateY(16vw);
     z-index: 99;
     scale: 0.3;
 }
 
 #nav #part2 button{
-    padding: 8px 16px;
-    border: 1px solid #434B34;
-    border-radius: 50px;
-    font-size: 15px;
+    padding: 0.6vw 1.2vw;
+    border: 0.15vw solid #434B34;
+    border-radius: 5vw;
+    font-size: 1.1vw;
     font-weight: 500;
     color: #434B34;
 }
@@ -69,7 +69,7 @@ body{
 #nav #part2 button:nth-last-child(1){
     background-color: #434B34;
     color: white;
-    margin-left: 8px;
+    margin-left: 0.6vw;
 }
 
 /* Page1 */
@@ -128,7 +128,7 @@ body{
     bottom: -10%;
     width: 280vw;
     fill: #5B6647;
-    transform: translate3d(-232.148px, 0px, 0px);
+    transform: translate3d(-40vw, 0px, 0px);
     z-index: 9;
 }
 
@@ -137,14 +137,14 @@ body{
     bottom: -10%;
     width: 280vw;
     fill: #E3E3C4;
-    transform: translate3d(-111.618px, 0px, 0px);
+    transform: translate3d(-10vw, 0px, 0px);
 }
 
 /* Page3 */
 
 #page3{
     width: 100%;
-    min-height: 100vh;
+    min-height: 250vh;
     background-color: #F7F7EE;
     padding: 18vw 8.5vw 6vw 8.5vw; 
 }
@@ -172,7 +172,7 @@ body{
 #left{
     width: 45%;
     height: 100%;
-    margin-right: 20px;
+    margin-right: 1.5vw;
     position: relative;
 }
 
@@ -199,7 +199,7 @@ body{
 #left h1 i{
     background-color: #5B6647;
     padding: 0.3vw 1.25vw;
-    border-radius: 50px;
+    border-radius: 5vw;
     font-family: regular;
     font-size: 1.39vw;
     color: #F7F7EE;
@@ -210,7 +210,7 @@ body{
     width: 100%;
     height: 45%;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 1.5vw;
 }
 
 #right{
@@ -223,15 +223,15 @@ body{
     height: 55%;
     object-fit: cover;
     object-position: center;
-    border-radius: 20px;
-    margin-bottom: 15px;
+    border-radius: 1.5vw;
+    margin-bottom: 1.3vw;
 }
 
 #right #img2{
     width: 50%;
     height: 35%;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 1.5vw;
 }
 
 /* Page4 */
@@ -256,13 +256,13 @@ body{
 
 #page4 .elem:nth-child(1){
     border-top: 1px solid #c1c1c1;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    border-top-right-radius: 1.5vw;
+    border-top-left-radius: 1.5vw;
 }
 
 #page4 .elem:nth-last-child(1){
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 1.5vw;
+    border-bottom-left-radius: 1.5vw;
 }
 
 .elem .elem-part1{
@@ -308,7 +308,7 @@ body{
     margin-top: 6vw;
     background-color: #5B6647;
     padding: 0.3vw 1.6vw;
-    border-radius: 50px;
+    border-radius: 5vw;
     font-family: regular;
     font-size: 1.1vw;
     color: #F7F7EE;
@@ -322,7 +322,7 @@ body{
     left: 0;
     background-color: #5B6647;
     padding: 0.3vw 1.6vw;
-    border-radius: 50px;
+    border-radius: 5vw;
     font-family: regular;
     font-size: 1.39vw;
     color: #F7F7EE;
@@ -368,14 +368,13 @@ body{
   
 #page5 .swiper-slide {
     text-align: center;
-    font-size: 18px;
+    font-size: 4.5vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#page5 .swiper-slide:nth-last-child(1){
-    width: 15%;
-}
+
+
 #page5 .swiper-slide img {
   display: block;
   width: 100%;
@@ -383,31 +382,24 @@ body{
   object-fit: cover;
   object-position: bottom;
   transform: scale(0.6) translateX(-47%) translateY(33.5%);
-  border-radius: 20px;
+  border-radius: 1.5vw;
 }
   
 #page5 .swiper-slide {
     width: 85%;
-    padding: 40px 60px;
+    padding: 3vw 4.8vw;
 }
   
 #page5 .swiper-slide-active img{
     transform: scale(1) translateX(-1%) translateY(0%);  
 }  
   
-#page5 .swiper-button-next{
+#page5 .swiper-button{
     color: #fff;
     background-color: #434b34;
-    padding: 5px 25px;
-    height: 25px;
-    border-radius: 50px;
-}
-#page5 .swiper-button-prev{
-    color: #fff;
-    background-color: #434b34;
-    padding: 5px 25px;
-    height: 25px;
-    border-radius: 50px;
+    padding: 1vw 2vw;
+    height: 2vw;
+    border-radius: 5vw;
 }
   
 #page5 .swiper-button-next::after{
@@ -428,8 +420,8 @@ body{
 }
   
 #page5 .swiper-pagination{
-    height: 10px;
-    font-size: 14px;
+    height: 0.5vw;
+    font-size: 1vw;
     font-weight: 500;
     color: #555555;
     font-family: pp wood;
@@ -446,7 +438,7 @@ body{
 
 #page6-svg1{
     position: absolute;
-    transform: translate3d(1050.6px, 0px, 0px);
+    transform: translate3d(80vw, 0px, 0px);
     fill: #03364F;
     width: 280vw;
     z-index: 1;
@@ -456,7 +448,7 @@ body{
 
 #page6-svg2{
     position: absolute;
-    transform: translate3d(900.6px, 0px, 0px);
+    transform: translate3d(70vw, 0px, 0px);
     fill: #E3E3C4;
     width: 280vw;
     rotate: 180deg;
@@ -464,9 +456,9 @@ body{
 }
 
 #page6-text{
-    padding-top: 290px;
+    padding-top: 22vw;
     text-align: center;
-    padding-bottom: 120px;
+    padding-bottom: 11vw;
 }
 
 #page6-text h2{
@@ -519,7 +511,7 @@ body{
     width: 100%;
     height: 40%;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 1.5vw;
     margin-bottom: 2vw;
 }
 
@@ -559,7 +551,7 @@ body{
 #page6-btn h2 i{
     color: #5B6647;
     padding: 0.35vw 1.25vw;
-    border-radius: 50px;
+    border-radius: 5vw;
     font-family: regular;
     font-size: 1.39vw;
     background-color: #F7F7EE;
@@ -580,7 +572,7 @@ body{
     fill: #03364F;
     width: 280vw;
     z-index: 99;
-    transform: translate3d(-341.173px, 0px, 0px);
+    transform: translate3d(-25vw, 0px, 0px);
 }
 
 #page6-svg4{
@@ -588,7 +580,7 @@ body{
     bottom: -8%;
     fill: #E3E3C4;
     width: 280vw;
-    transform: translate3d(-168.98px, 0px, 0px);
+    transform: translate3d(-15vw, 0px, 0px);
 }
 
 /* Page7 */
@@ -623,7 +615,7 @@ body{
 
 #page8-left{
     height: 95vh;
-    border-radius: 20px;
+    border-radius: 1.5vw;
     width: 46.5%;
     background-image: url(https://hotelodisej.com/wp-content/uploads/bf-advanced-images/230/ALH_Odisej_outsidepool_01-scaled-600x0.jpg);
     background-size: cover;
@@ -635,7 +627,7 @@ body{
 
 #page8-center{
     height: 100%;
-    border-radius: 20px;
+    border-radius: 1.5vw;
     width: 50%;
     text-align: center;
     padding: 5vw 10.5vw;
@@ -683,7 +675,7 @@ body{
 #page8-btn h2 i{
     color: #F7F7EE;
     padding: 0.35vw 1.25vw;
-    border-radius: 50px;
+    border-radius: 5vw;
     font-family: regular;
     font-size: 1.39vw;
     background-color: #5E684A;
@@ -700,7 +692,7 @@ body{
 
 #page8-right{
     height: 95vh;
-    border-radius: 20px;
+    border-radius: 1.5vw;
     width: 46.5%;
     position: absolute;
     background-image: url(https://hotelodisej.com/wp-content/uploads/bf-advanced-images/388/alh-img-2-600x0.jpeg);
@@ -742,7 +734,7 @@ body{
     top: -10%;
     fill: #5B6647;
     z-index: 1;
-    transform: translate3d(1050px, 0px, 0px);
+    transform: translate3d(80vw, 0px, 0px);
 }
 
 #page10-svg2{
@@ -751,7 +743,7 @@ body{
     position: absolute;
     top: -10%;
     fill: #E3E3C4;
-    transform: translate3d(900px, 0px, 0px);
+    transform: translate3d(70vw, 0px, 0px);
 }
 
 #page10-svg3{
@@ -816,7 +808,7 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 1.5vw;
 }
 
 #page10-btn{
@@ -843,7 +835,7 @@ body{
 #page10-btn h2 i{
     color: #5E684A;
     padding: 0.35vw 1.25vw;
-    border-radius: 50px;
+    border-radius: 5vw;
     font-family: regular;
     font-size: 1.39vw;
     background-color:#F7F7EE; 
@@ -909,7 +901,7 @@ body{
     height: 100%;
     object-fit: cover;
     object-position: center;
-    border-radius: 20px;
+    border-radius: 1.5vw;
 }
 
 #first-right{
@@ -948,7 +940,7 @@ body{
 .head-btn i{
     color: #F7F7EE;
     padding: 0.35vw 1.25vw;
-    border-radius: 50px;
+    border-radius: 5vw;
     font-family: regular;
     font-size: 1.39vw;
     background-color:#5E684A; 
@@ -1006,7 +998,7 @@ body{
     position: absolute;
     bottom: 4vw;
     left: 5vw;
-    border-radius: 20px;
+    border-radius: 1.5vw;
     padding: 0vw 9vw;
     display: flex;
     align-items: center;
@@ -1031,7 +1023,7 @@ body{
 #page12-text h3 i{
     color: #434B34;
     padding: 0.35vw 1.25vw;
-    border-radius: 50px;
+    border-radius: 5vw;
     font-family: regular;
     font-size: 1.39vw;
     background-color:#F7F7EE; 
@@ -1128,4 +1120,68 @@ body{
     font-size: 1vw;
     font-weight: 100;
     color: #8CA5AD;
+}
+
+
+#bottom2{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    position: relative;
+
+}
+#eyes{
+    height: 70px;
+    width: 144px;
+    /* background-color: rgba(255, 0, 0, 0.381); */
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -125px;
+}
+#owlimg{
+    position: absolute;
+    height: 32vh;
+    /* top: -76px; */
+    bottom: -250px;
+    z-index: 1;
+}
+
+#cir1{
+    height: 100%;
+    /* width: 47px; */
+    /* background-color: #dadadafc; */
+    border-radius: 50%;
+    padding: 25px;
+    overflow: hidden;
+    transform: rotate(-10deg);
+}
+#cir3{
+    height:100%;
+    
+    border-radius: 50%;
+    padding: 25px;
+    overflow: hidden;
+    transform: rotate(-10deg);
+}
+#cir2{
+    height: 30px;
+    width: 30px;
+    background-color: #000;
+    border-radius: 50%;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#cir4{
+    height: 30px;
+    width: 30px;
+    background-color: #000;
+    border-radius: 50%;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
 }
